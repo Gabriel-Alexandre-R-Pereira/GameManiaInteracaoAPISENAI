@@ -1,0 +1,182 @@
+/* Header */
+
+header {
+    background-color: hsl(0, 0%, 10%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header > figure, header > nav {
+    margin: 0;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: hsl(0, 0%, 90%);
+}
+
+header a:hover {
+    color: hsl(240, 100%, 35%);
+    transition: 0.25s;
+}
+
+header > nav > .faBars {
+    display: none;
+}
+
+
+
+
+
+/* Responsivity */
+
+/* Max Width: 2560px */
+
+@media screen and (max-width: 2560px) {
+        
+    /* Header */
+
+    header {
+        height: 12vh;
+    }
+    
+    header > nav {
+        height: inherit;
+        width: 20%;
+    }
+
+    header > figure > a > img {
+        width: 150%;
+    }
+
+    header a {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+/* Max Width: 1440px */
+
+@media screen and (max-width: 1440px) {
+    
+    /* Header */
+
+    header > figure > a > img {
+        width: 100%;
+    }
+
+    header a {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+/* Max Width: 1025px */
+
+@media screen and (max-width: 1025px) {
+    
+    /* Header */
+
+    header > nav {
+        position: relative;
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    header > nav > a {
+        display: none;
+    }
+
+    header > nav > .faBars {
+        display: inline-block;
+    }
+
+    header > .ResponsiveTopMenu {
+        background-color: hsl(0, 0%, 10%);
+        height: 34vh;
+    }
+
+    header > .ResponsiveTopMenu > a {
+        display: inline-block;
+    }
+}
+
+
+
+
+
+/* Max Width: 426px */
+
+@media screen and (max-width: 426px) {
+    
+    /* Header */
+    
+    header > figure > a > img {
+        width: 80%;
+    }
+
+    header > .ResponsiveTopMenu {
+        height: 33.5vh;
+    }
+
+    header a {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+/* Max Width: 376px */
+
+@media screen and (max-width: 376px) {
+    
+    /* Header */
+    
+    header a {
+        font-size: 0.7rem;
+    }
+
+    header > .ResponsiveTopMenu {
+        height: 33vh;
+    }
+}
+
+
+
+
+
+/* Max Width: 320px */
+
+@media screen and (max-width: 320px) {
+    
+    /* Header */
+    
+    header a {
+        font-size: 0.5rem;
+    }
+
+    header > .ResponsiveTopMenu {
+        height: 32vh;
+    }
+}

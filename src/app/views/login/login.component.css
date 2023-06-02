@@ -1,0 +1,279 @@
+/* login.html Stylization */
+
+/* Forms */
+
+form > h1, form > h2 {
+    font-family: Silkscreen;
+    background-color: hsl(0, 0%, 10%);
+}
+
+fieldset {
+    background-color: hsla(0, 0%, 90%, 50%);
+}
+
+.EmailContainer, .PasswordContainer {
+    background-color: hsla(0, 0%, 10%);
+}
+
+legend {
+    color: hsl(0, 0%, 10%)
+}
+
+samp {
+    color: hsl(0, 100%, 35%);
+}
+
+.btn-lg:hover {
+    background-color: hsl(240, 100%, 35%);
+}
+
+
+
+
+
+/* Responsivity */
+
+/* Max Width: 2560px */
+
+@media screen and (max-width: 2560px) {
+
+    /* login.html */
+
+    /* Forms */
+
+    .display-1, .display-2 {
+        width: 80%;
+        border-radius: 10px;
+        padding-top: 0.5%;
+        padding-bottom: 1%;
+    }
+
+    fieldset, .EmailContainer, .PasswordContainer {
+        border-radius: 15px;
+    }
+
+    .form-control-lg {
+        font-size: 3rem;
+        border-radius: 10px;    
+    }
+
+    samp {
+        font-size: 3rem;
+    }
+
+    .btn-lg {
+        font-size: 2.5rem;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+/* Max Width: 1440px */
+
+@media screen and (max-width: 1440px) {
+
+    /* login.html */
+
+    /* Forms */
+
+    form > .display-1 {
+        font-size: 3.5rem;
+    }
+
+    form > .display-2 {
+        font-size: 3rem;
+    }
+
+    fieldset, .EmailContainer, .PasswordContainer {
+        border-radius: 10px;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .display-5 {
+        font-size: 1.5rem;
+    }
+
+    .form-control-lg {
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+
+    samp {
+        font-size: 1.5rem;
+    }
+
+    .btn-lg {
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
+/* Max Width: 1025px */
+
+@media screen and (max-width: 1025px) {
+
+    /* login.html */
+
+    /* Forms */
+
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .btn-lg {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+/* Max Width: 769px */
+
+@media screen and (max-width: 769px) {
+
+    /* login.html */
+
+    /* Forms */
+
+    form > .display-1 {
+        font-size: 3rem;
+    }
+
+    form > .display-2 {
+        font-size: 2.5rem;
+    }
+
+    .display-4 {
+        font-size: 1.5rem;
+    }
+
+    .display-5 {
+        font-size: 1.1rem;
+    }
+
+    .form-control-lg, samp {
+        font-size: 1.1rem;      
+    }
+}
+
+
+
+
+
+/* Max Width: 426px */
+
+@media screen and (max-width: 426px) {
+
+    /* login.html */
+
+    /* Forms */
+
+    form > .display-1 {
+        font-size: 2.5rem;
+        border-radius: 5px;
+    }
+
+    form > .display-2 {
+        font-size: 2rem;
+        border-radius: 5px;
+    }
+
+    .display-4 {
+        font-size: 0.8rem;
+    }
+
+    .display-5 {
+        font-size: 0.8rem;
+    }
+
+    .form-control-lg, samp {
+        font-size: 0.8rem;      
+    }
+
+    .btn-lg {
+        font-size: 0.6rem;
+    }
+}
+
+
+
+
+
+/* Max Width: 376px */
+
+@media screen and (max-width: 376px) {
+
+    /* login.html */
+
+    /* Forms */
+
+    form > .display-1 {
+        font-size: 2rem;
+    }
+
+    form > .display-2 {
+        font-size: 1.8rem;
+    }
+
+    .display-4 {
+        font-size: 0.8rem;
+    }
+
+    .form-control-lg {
+        border-radius: 2px;
+    }
+
+    .btn-lg {
+        font-size: 0.5rem;
+        border-radius: 2px;
+    }
+}
+
+
+
+
+
+/* Max Width: 320px */
+
+@media screen and (max-width: 320px) {
+    
+   /* login.html */
+
+    /* Forms */
+
+    form > .display-1 {
+        font-size: 1.8rem;
+    }
+
+    form > .display-2 {
+        font-size: 1.6rem;
+    }
+
+    .display-4 {
+        font-size: 0.6rem;
+    }
+
+    .display-5 {
+        font-size: 0.6rem;
+    }
+
+    .form-control-lg, samp {
+        font-size: 0.6rem;      
+    }
+
+    .btn-lg {
+        font-size: 0.4rem;
+    }
+}

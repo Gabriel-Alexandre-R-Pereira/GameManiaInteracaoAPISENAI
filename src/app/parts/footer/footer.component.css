@@ -1,0 +1,192 @@
+/* Footer */
+
+footer {
+    background-color: hsl(0, 0%, 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer > nav > figure {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > nav a {
+    margin: 0 50%;
+}
+
+footer > figure {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* Responsivity */
+
+/* Max Width: 2560px */
+
+@media screen and (max-width: 2560px) {
+    
+    /* Footer */
+
+    footer > article, footer > nav, footer figure {
+        margin: 1rem;
+    }
+
+    footer > article {
+        width: 60%;
+    }
+
+    footer p {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    footer > figure > img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* Max Width: 1440px */
+
+@media screen and (max-width: 1440px) {
+    
+    /* Footer */
+
+    footer > article, footer > nav, footer figure {
+        margin: 0.5rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    footer > nav img {
+        width: 40px;
+    }
+
+    footer > figure > img {
+        width: 70%;
+    }
+}
+
+
+
+
+
+/* Max Width: 1025px */
+
+@media screen and (max-width: 1025px) {
+    
+    /* Footer */
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    footer > nav img {
+        width: 35px;
+    }
+}
+
+
+
+
+
+/* Max Width: 769px */
+
+@media screen and (max-width: 769px) {
+    
+    /* Footer */
+
+    footer > nav img {
+        width: 30px;
+    }
+}
+
+
+
+
+
+
+/* Max Width: 426px */
+
+@media screen and (max-width: 426px) {
+    
+    /* Footer */
+
+    footer > article, footer > nav, footer figure {
+        margin: 0.2rem;
+    }
+
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    footer > nav img {
+        width: 25px;
+    }
+
+    footer > figure > img {
+        width: 45%;
+    }
+}
+
+
+
+
+
+/* Max Width: 376px */
+
+@media screen and (max-width: 376px) {
+    
+    /* Footer */
+
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    footer > nav img {
+        width: 20px;
+    }
+
+    footer > figure > img {
+        width: 45%;
+    }
+}
+
+
+
+
+
+/* Max Width: 320px */
+
+@media screen and (max-width: 320px) {
+    
+    /* Footer */
+
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    footer > nav img {
+        width: 20px;
+    }
+
+    footer > figure > img {
+        width: 45%;
+    }
+}

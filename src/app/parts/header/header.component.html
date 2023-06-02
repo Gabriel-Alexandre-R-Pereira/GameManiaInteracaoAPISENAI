@@ -1,0 +1,16 @@
+<header>
+    <figure>
+        <a routerLink=""><img src="../../../assets/Images/Logomarca.png" alt="GameMania - Logomarca"></a>
+    </figure>
+
+    <nav id="TopMenu">
+        <a routerLink="#" class="faBars"><fa-icon [icon]="faBars" size="2x" onclick="MobileMenu()"></fa-icon></a>
+        <a routerLink="#">Contato</a>
+        
+        <a href="" *ngIf="Nome" (click)="LogOut()">Sair</a> <!-- Propositalmente usando href="" para recarregar a página após chamar a funtion LogOut -->
+        <a routerLink="#" *ngIf="!Nome">Registre-se</a>
+
+        <a routerLink="#" *ngIf="Nome">{{ Nome }}</a>
+        <a routerLink="login" *ngIf="!Nome">Log in</a>
+    </nav>
+</header>

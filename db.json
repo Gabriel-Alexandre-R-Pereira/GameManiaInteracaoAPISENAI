@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "email": "meuemail@exemplo.com",
+      "password": "$2a$10$XGh/KDaDLcmGuut674PJ0e3ZeOd5IPDEyostIVbMj97oypUJBWKJq",
+      "nome": "Meunome",
+      "idade": 99,
+      "id": 1
+    },
+    {
+      "email": "seuemail@exemplo.com",
+      "password": "$2a$10$LyTOz/VKe52ezLZmonHruOw13OzicachmkAt8PL1Vn3vOZnqVjrLe",
+      "nome": "Seunome",
+      "idade": 88,
+      "id": 2
+    }
+  ]
+}
